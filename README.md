@@ -1,1 +1,1 @@
-# text-game
+# Text game in Javascript
