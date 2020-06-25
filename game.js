@@ -166,21 +166,25 @@ const textNodes = [
   },
   {
     id: 75,
-    text: 'The monster laughed as you hid behind your shield and ate you.',
+    text: 'Wycofujesz się. Wracasz w stronę skrzyżowania. Mijasz starca.',
     options: [
       {
-        text: 'Restart',
-        nextText: -1
+        text: 'Dalej',
+        nextText: 200
       }
     ]
   },
   {
     id: 105,
-    text: 'You threw your jar of goo at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your and live out the rest of your days there.',
+    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły: - 1 W $$$$$$$$$$$$$. Czy chcesz ponowic próbę?',
     options: [
       {
-        text: 'Congratulations. Play Again.',
-        nextText: -1
+        text: 'Tak',
+        nextText: 56
+      },
+      {
+        text: 'Nie',
+        nextText: 75
       }
     ]
   }
