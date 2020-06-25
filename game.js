@@ -42,43 +42,31 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You wake up in a strange place and you see a jar of blue goo near you.',
+    text: 'Wejście do podziemi jest szerokie, obrośnięte trawą i bujnymi krzewami. Poprawiasz ubranie i ekwipunek. Zapalasz latarnię. Wchodzisz do korytarza. Jest wysoki, nie musisz się schylać. Prowadzi prosto na północ. Wkrótce dochodzisz do skrzyżowania. Ma ono kształt litery T. Odnogi prowadzą na zachód, wschód i południe (skąd przyszedłeś).',
+
     options: [
       {
-        text: 'Take the goo',
-        setState: { blueGoo: true },
-        nextText: 2
-      },
-      {
-        text: 'Leave the goo',
-        nextText: 2
+        text: 'Dalej',
+        nextText: 25
       }
     ]
   },
   {
-    id: 2,
-    text: 'You venture forth in search of answers to where you are when you come across a merchant.',
+    id: 25,
+    text: 'Na kamieniu siedzi stary człowiek. Radzi ci iść na zachód, a później na kiIku najbliższych skrzyżowaniach skręcać w prawo.',
     options: [
       {
-        text: 'Trade the goo for a sword',
-        requiredState: (currentState) => currentState.blueGoo,
-        setState: { blueGoo: false, sword: true },
-        nextText: 3
+        text: 'Idziesz na zachód',
+        nextText: 200
       },
       {
-        text: 'Trade the goo for a shield',
-        requiredState: (currentState) => currentState.blueGoo,
-        setState: { blueGoo: false, shield: true },
-        nextText: 3
-      },
-      {
-        text: 'Ignore the merchant',
-        nextText: 3
+        text: 'Wybierasz drogę prowadzącą na wschód',
+        nextText: 44
       }
     ]
   },
   {
-    id: 3,
+    id: 200,
     text: 'After leaving the merchant you start to feel tired and stumble upon a small town next to a dangerous looking castle.',
     options: [
       {
@@ -96,7 +84,7 @@ const textNodes = [
     ]
   },
   {
-    id: 4,
+    id: 44,
     text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
     options: [
       {
