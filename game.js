@@ -118,32 +118,22 @@ const textNodes = [
     ]
   },
   {
-    id: 7,
-    text: 'While exploring the castle you come across a horrible monster in your path.',
+    id: 364,
+    text: 'Popychasz drzwi, uchylają się. Otwiera się ciemna czeluść. Wchodzisz oświetlając drogę latarnią. Pod stopami czujesz kamyki. Z przeciwległego końca pokoju dochodzi ciche chrapanie. Idziesz w tamtym kierunku. Na podłodze śpi ork. Obok niego leży jakieś pudełko.',
     options: [
       {
-        text: 'Try to run',
-        nextText: 8
+        text: 'Próbujesz zabrać ukradkiem pudełko',
+        nextText: 29
       },
       {
-        text: 'Attack it with your sword',
-        requiredState: (currentState) => currentState.sword,
-        nextText: 9
-      },
-      {
-        text: 'Hide behind your shield',
-        requiredState: (currentState) => currentState.shield,
-        nextText: 10
-      },
-      {
-        text: 'Throw the blue goo at it',
-        requiredState: (currentState) => currentState.blueGoo,
-        nextText: 11
+        text: 'Decydujesz się podjąć walkę',
+       // requiredState: (currentState) => currentState.sword,
+        nextText: 116
       }
     ]
   },
   {
-    id: 8,
+    id: 999,
     text: 'Your attempts to run are in vain and the monster easily catches.',
     options: [
       {
@@ -153,17 +143,29 @@ const textNodes = [
     ]
   },
   {
-    id: 9,
-    text: 'You foolishly thought this monster could be slain with a single sword.',
+    id: 64,
+    text: 'Zbliżasz się do skrzyżowania. Możesz iść w każdym z czterech kierunków.',
     options: [
       {
-        text: 'Restart',
-        nextText: -1
+        text: 'Na zachód',
+        nextText: 296
+      },
+      {
+        text: 'Na północ',
+        nextText: 264
+      },
+      {
+        text: 'Na wschód',
+        nextText: 284
+      },
+      {
+        text: 'Na południe',
+        nextText: 224
       }
     ]
   },
   {
-    id: 10,
+    id: 75,
     text: 'The monster laughed as you hid behind your shield and ate you.',
     options: [
       {
@@ -173,7 +175,7 @@ const textNodes = [
     ]
   },
   {
-    id: 11,
+    id: 105,
     text: 'You threw your jar of goo at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your and live out the rest of your days there.',
     options: [
       {
