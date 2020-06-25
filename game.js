@@ -67,24 +67,20 @@ const textNodes = [
   },
   {
     id: 200,
-    text: 'After leaving the merchant you start to feel tired and stumble upon a small town next to a dangerous looking castle.',
+    text: 'Po pewnym czasie dostrzegasz drzwi w południowej ścianie korytarza (drzwi, przez które nie przechodziłeś, są zamknięte. Wyjątki opisane są w tekście).',
     options: [
       {
-        text: 'Explore the castle',
-        nextText: 4
+        text: 'Drzwi otwarte',
+        nextText: 120
       },
       {
-        text: 'Find a room to sleep at in the town',
-        nextText: 5
+        text: 'Drzwi zamkniętę',
+        nextText: 301
       },
-      {
-        text: 'Find some hay in a stable to sleep in',
-        nextText: 6
-      }
     ]
   },
   {
-    id: 44,
+    id: 120,
     text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
     options: [
       {
@@ -94,7 +90,7 @@ const textNodes = [
     ]
   },
   {
-    id: 5,
+    id: 301,
     text: 'Without any money to buy a room you break into the nearest inn and fall asleep. After a few hours of sleep the owner of the inn finds you and has the town guard lock you in a cell.',
     options: [
       {
@@ -104,7 +100,7 @@ const textNodes = [
     ]
   },
   {
-    id: 6,
+    id: 44,
     text: 'You wake up well rested and full of energy ready to explore the nearby castle.',
     options: [
       {
