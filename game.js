@@ -81,31 +81,39 @@ const textNodes = [
   },
   {
     id: 120,
-    text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
+    text: 'Idziesz na zachód. Korytarz łagodnie skręca w prawo i teraz juz prowadzi na północ. Widzisz przed sobą skrzyżowanie.',
     options: [
       {
-        text: 'Restart',
-        nextText: -1
+        text: 'Dalej',
+        nextText: 64
       }
     ]
   },
   {
     id: 301,
-    text: 'Without any money to buy a room you break into the nearest inn and fall asleep. After a few hours of sleep the owner of the inn finds you and has the town guard lock you in a cell.',
+    text: '',
     options: [
       {
-        text: 'Restart',
-        nextText: -1
+        text: 'Próbujesz otworzyć drzwi',
+        nextText: 364
+      },
+      {
+        text: 'Rezygnujesz',
+        nextText: 120
       }
     ]
   },
   {
     id: 44,
-    text: 'You wake up well rested and full of energy ready to explore the nearby castle.',
+    text: 'Idziesz na wschód. Widzisz przed sobą solidne drzwi. Próbujesz je otworzyć. Nie ustępują.',
     options: [
       {
-        text: 'Explore the castle',
-        nextText: 7
+        text: 'Rezygnujesz',
+        nextText: 75
+      },
+      {
+        text: 'Próbujesz wyważyć drzwi',
+        nextText: 105
       }
     ]
   },
