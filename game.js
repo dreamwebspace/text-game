@@ -128,6 +128,7 @@ const textNodes = [
       {
         text: 'Decydujesz się podjąć walkę',
        // requiredState: (currentState) => currentState.sword,
+       //TODO
         nextText: 116
       }
     ]
