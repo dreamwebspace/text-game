@@ -176,7 +176,8 @@ const textNodes = [
   },
   {
     id: 105,
-    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły: - 1 W $$$$$$$$$$$$$. Czy chcesz ponowic próbę?',
+    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
+    //TODO -1w
     options: [
       {
         text: 'Tak',
