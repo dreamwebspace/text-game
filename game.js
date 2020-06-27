@@ -176,7 +176,7 @@ const textNodes = [
   },
   {
     id: 105,
-    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
+    text: 'Próbujesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
     //TODO -1w
     options: [
       {
@@ -201,31 +201,22 @@ const textNodes = [
   },
   {
     id: 264,
-    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
-    //TODO -1w
+    text: 'Trudno przejść przez to zwalisko kamieni. Na szczęście korytarz nie wije się we wszystkie strony, lecz prowadzi prosto na północ.',
     options: [
       {
-        text: 'Tak',
-        nextText: 56
-      },
-      {
-        text: 'Nie',
-        nextText: 75
+        text: 'Dalej',
+        nextText: 102
       }
     ]
   },
   {
     id: 284,
-    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
-    //TODO -1w
+    text: 'Korytarz jest coraz węższy. Ze sklepienia zwisają długie kamienne brody. Moga lada chwila urwać się. SSS. Jeśli masz $$$SZCZESCIE - wszystko w porzqdku. Jeśli nie masz SZCZZZZZ minus 2 W.',
+    //TODO SSS
     options: [
       {
-        text: 'Tak',
-        nextText: 56
-      },
-      {
-        text: 'Nie',
-        nextText: 75
+        text: 'Dalej',
+        nextText: 50
       }
     ]
   },
