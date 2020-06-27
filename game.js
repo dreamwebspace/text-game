@@ -280,19 +280,11 @@ const textNodes = [
   },
   {
     id: 130,
-    text: 'XXXXXXXXXXXZbliżasz się do skrzyżowania. Możesz iść na:',
+    text: 'Korytarz ma teraz prawie pięc kroków szerokości. Idziesz więc wygodnie. Prostuiesz kości. Przeszedłeś zaledwie sto kroków, a tu następne skrzyżowanie.',
     options: [
       {
-        text: 'Północ',
-        nextText: 310
-      },
-      {
-        text: 'Wschód',
-        nextText: 130
-      },
-      {
-        text: 'Zachód',
-        nextText: 64
+        text: 'Dalej',
+        nextText: 212
       }
     ]
   },
