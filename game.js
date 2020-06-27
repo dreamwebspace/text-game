@@ -188,6 +188,61 @@ const textNodes = [
         nextText: 75
       }
     ]
+  },
+  {
+    id: 296,
+    text: 'Korytarz biegnie na zachód i skręca na północ. Na zakręcie możesz zjeść prowiant. Idziesz dalej. Przed sobę widzisz skrzyżownie.',
+    options: [
+      {
+        text: 'Dalej',
+        nextText: 39
+      }
+    ]
+  },
+  {
+    id: 264,
+    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
+    //TODO -1w
+    options: [
+      {
+        text: 'Tak',
+        nextText: 56
+      },
+      {
+        text: 'Nie',
+        nextText: 75
+      }
+    ]
+  },
+  {
+    id: 284,
+    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
+    //TODO -1w
+    options: [
+      {
+        text: 'Tak',
+        nextText: 56
+      },
+      {
+        text: 'Nie',
+        nextText: 75
+      }
+    ]
+  },
+  {
+    id: 224,
+    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
+    //TODO -1w
+    options: [
+      {
+        text: 'Tak',
+        nextText: 56
+      },
+      {
+        text: 'Nie',
+        nextText: 75
+      }
+    ]
   }
 ]
 
