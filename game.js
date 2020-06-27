@@ -223,7 +223,6 @@ const textNodes = [
   {
     id: 224,
     text: 'Po kilkunastu krokach korytarz skręca na wschód. Idziesz dalej. W południowe ścianie korytarza dostrzegasz drzwi.',
-    //TODO -1w
     options: [
       {
         text: 'Drzwi są otwarte',
@@ -234,7 +233,36 @@ const textNodes = [
         nextText: 301
       }
     ]
-  }
+  },
+  {
+    id: 180,
+    text: 'Ponownie przeszukujesz pokój. W torbie orka, której nie zdążyłeś przejrzec, znajdujesz klucz. Jest na nim wygrawerowana liczba 45. Bierzesz go wziqc ze sobą. $$$$Wpisz klucz na swoją Listę ekwipunku. Nie zapomnij o zapisaniu liczby podanej na kluczu. Wychodzisz z komnaty pozostawiając drzwi otwarte.',
+    //TODO ekwipunek
+    options: [
+      {
+        text: 'Dalej',
+        nextText: 120
+      }
+    ]
+  },
+  {
+    id: 50,
+    text: 'Zbliżasz się do skrzyżowania. Możesz iść na:',
+    options: [
+      {
+        text: 'Północ',
+        nextText: 310
+      },
+      {
+        text: 'Wschód',
+        nextText: 130
+      },
+      {
+        text: 'Zachód',
+        nextText: 64
+      }
+    ]
+  },
 ]
 
 startGame()
