@@ -45,6 +45,7 @@ const textNodes = [
     text: 'Wejście do podziemi jest szerokie, obrośnięte trawą i bujnymi krzewami. Poprawiasz ubranie i ekwipunek. Zapalasz latarnię. Wchodzisz do korytarza. Jest wysoki, nie musisz się schylać. Prowadzi prosto na północ. Wkrótce dochodzisz do skrzyżowania. Ma ono kształt litery T. Odnogi prowadzą na zachód, wschód i południe (skąd przyszedłeś).',
 
     options: [
+      
       {
         text: 'Dalej',
         nextText: 25
