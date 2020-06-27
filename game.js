@@ -263,6 +263,38 @@ const textNodes = [
       }
     ]
   },
+  {
+    id: 310,
+    text: 'Tylko dziesięc kroków dzieli cię od zmurszałych drewnianych drzwi. Czy byłeś juz za nimi?',
+    options: [
+      {
+        text: 'Tak',
+        nextText: 67
+      },
+      {
+        text: 'Nie',
+        nextText: 17
+      }
+    ]
+  },
+  {
+    id: 130,
+    text: 'XXXXXXXXXXXZbliżasz się do skrzyżowania. Możesz iść na:',
+    options: [
+      {
+        text: 'Północ',
+        nextText: 310
+      },
+      {
+        text: 'Wschód',
+        nextText: 130
+      },
+      {
+        text: 'Zachód',
+        nextText: 64
+      }
+    ]
+  },
 ]
 
 startGame()
