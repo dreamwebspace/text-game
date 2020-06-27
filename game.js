@@ -222,16 +222,16 @@ const textNodes = [
   },
   {
     id: 224,
-    text: 'Próbuiesz wyważyć drzwi. Rozpędzasz się i z całej siły uderzasz barkiem. Drzwi ani drgnęły. Czy chcesz ponowic próbę?',
+    text: 'Po kilkunastu krokach korytarz skręca na wschód. Idziesz dalej. W południowe ścianie korytarza dostrzegasz drzwi.',
     //TODO -1w
     options: [
       {
-        text: 'Tak',
-        nextText: 56
+        text: 'Drzwi są otwarte',
+        nextText: 180
       },
       {
-        text: 'Nie',
-        nextText: 75
+        text: 'Drzwi są zamknięte',
+        nextText: 301
       }
     ]
   }
